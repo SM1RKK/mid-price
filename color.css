@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('http://fonts.font.im/css?family=Comfortaa:700');
+@import url('http://fonts.font.im/css?family=Bitter|Arvo');
+@import url('http://fonts.font.im/css?family=Josefin+Sans');
+@import url('http://fonts.font.im/css?family=Satisfy');
+@import url('http://fonts.font.im/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+    background:rgba(237, 238, 174, 0.158);
+    overflow-x:hidden;
+}
+
+.pls{
+    display: flex;
+    margin-left: 13.15%;
+    margin-top: 20px;
+    width:85%;
+    position: absolute;
+    font-size: 64px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    font-family: 'Special Elite', cursive;
+    text-shadow:2px 2px 1px rgb(139, 148, 61);
+    position: fixed;
+    vertical-align: baseline;
+    z-index: 1;
+}
+
+.pla{
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    text-shadow:1px 1px 2px rgb(139, 148, 61);
+    margin-top: 120px;
+    margin-left: 46.5%;
+}
+
+.plaa{
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    text-shadow:1px 1px 2px rgb(139, 148, 61);
+    margin-top: 1640px;
+    margin-left: 42.5%;
+}
+
+.plaaa{
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    text-shadow:1px 1px 2px rgb(139, 148, 61);
+    margin-top: 2720px;
+    margin-left: 46%;
+}
+
+.bb{    
+    
+    display: flex;
+    gap:5px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 3px;
+    border: solid 1px #ffffff;
+    background-color: #aaaaaa;
+    text-decoration: none;
+    
+}
+
+.bd{
+    position: absolute;
+    margin-top: 55px;
+    gap:5px;
+    display: flex;
+    margin-left: 81.9%;
+    text-decoration: none;
+    position: fixed;
+    z-index: 1;
+}
+
+.bb a{
+    padding-top: 5px;
+    font-family: 'Special Elite', cursive;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.bb a:hover{
+    transition: 0.5s;
+    color: rgba(114, 114, 114, 0.788);
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.l {
+    height: 25px;
+    width: 1px;
+    background-color: #a3a3a3;
+}
+
+.sear{
+    width: 120px;
+    position: absolute;
+    display:flex;
+    font-size: 14px;
+    margin-left: 51.8%;
+    gap:50px;
+    margin-top: 60px;
+    position: fixed;
+    z-index: 1;
+    /*text-decoration: none;*/
+}
+
+.pls a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+.sear a{
+    text-decoration: none;
+    color:darkgray;
+    transition: 0.5s;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+}
+
+.sear a:hover{
+    transition: 0.5s;
+    color: rgba(138, 138, 138, 0.788);
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px 5px 5px 5px;
+}
+
+img {
+	width: 340px;
+	border-radius: 5%;
+    box-shadow: 8px 8px 10px rgb(49, 49, 48);
+    transition:1.5s;
+	/*border: 1px solid rgba(255,0,0,1.00);*/
+}
+
+img:hover{
+    opacity: 0.1;
+    transition:1.5s;
+}
+
+.new{
+    color:rgb(247, 66, 120);
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    /*font-family: 'Satisfy', cursive;*/
+}
+
+.num{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+
+
+.mer {
+    position: absolute;
+    margin-top:200px;
+    margin-left: 7%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.merw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 7%;
+    margin-top:200px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.merp{
+    position: absolute;
+    margin-left: 9%;
+    margin-top:580px;
+}
+
+
+
+
+.ven {
+    position: absolute;
+    margin-top:200px;
+    margin-left: 38.5%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.venw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 38.5%;
+    margin-top:200px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.venp{
+    position: absolute;
+    margin-left: 40.5%;
+    margin-top:580px;
+}
+
+
+
+
+.ear {
+    position: absolute;
+    margin-top:200px;
+    margin-left: 70%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.earw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 70%;
+    margin-top:200px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.earp{
+    position: absolute;
+    margin-left: 72%;
+    margin-top:580px;
+}
+
+
+
+
+.mar {
+    position: absolute;
+    margin-top:670px;
+    margin-left: 7%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.marw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 7%;
+    margin-top:670px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.marp{
+    position: absolute;
+    margin-left: 9%;
+    margin-top:1050px;
+}
+
+
+
+
+.jup {
+    position: absolute;
+    margin-top:670px;
+    margin-left: 38.5%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.jupw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 38.5%;
+    margin-top:670px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.jupp{
+    position: absolute;
+    margin-left: 40.5%;
+    margin-top:1050px;
+}
+
+
+
+
+.sat {
+    position: absolute;
+    margin-top:670px;
+    margin-left: 70%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.satw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 70%;
+    margin-top:670px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.satp{
+    position: absolute;
+    margin-left: 72%;
+    margin-top:1050px;
+}
+
+
+
+
+.ura {
+    position: absolute;
+    margin-top:1140px;
+    margin-left: 7%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.uraw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 7%;
+    margin-top:1140px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.urap{
+    position: absolute;
+    margin-left: 9%;
+    margin-top:1520px;
+}
+
+
+
+
+.nep {
+    position: absolute;
+    margin-top:1140px;
+    margin-left: 70%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.nepw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 70%;
+    margin-top:1140px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.nepp{
+    position: absolute;
+    margin-left: 72%;
+    margin-top:1520px;
+}
+
+
+
+
+.cer {
+    position: absolute;
+    margin-top:1750px;
+    margin-left: 7%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.cerw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 7%;
+    margin-top:1750px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.cerp{
+    position: absolute;
+    margin-left: 9%;
+    margin-top:2130px;
+}
+
+
+
+
+.plu {
+    position: absolute;
+    margin-top:1750px;
+    margin-left: 38.5%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.pluw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 38.5%;
+    margin-top:1750px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.plup{
+    position: absolute;
+    margin-left: 40.5%;
+    margin-top:2130px;
+}
+
+
+
+
+.hue {
+    position: absolute;
+    margin-top:1750px;
+    margin-left: 70%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.huew{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 70%;
+    margin-top:1750px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.huep{
+    position: absolute;
+    margin-left: 72%;
+    margin-top:2130px;
+}
+
+
+
+
+.mak {
+    position: absolute;
+    margin-top:2220px;
+    margin-left: 7%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.makw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 7%;
+    margin-top:2220px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.makp{
+    position: absolute;
+    margin-left: 9%;
+    margin-top:2600px;
+}
+
+
+
+
+.eri {
+    position: absolute;
+    margin-top:2220px;
+    margin-left: 70%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.eriw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 70%;
+    margin-top:2220px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.erip{
+    position: absolute;
+    margin-left: 72%;
+    margin-top:2600px;
+}
+
+
+
+
+.sun {
+    position: absolute;
+    margin-top:2800px;
+    margin-left: 38.5%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.sunw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 38.5%;
+    margin-top:2800px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.sunp{
+    position: absolute;
+    margin-left: 40.5%;
+    margin-top:3180px;
+}
+
+
+
+
+.moo {
+    position: absolute;
+    margin-top:2800px;
+    margin-left: 7%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.moow{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 7%;
+    margin-top:2800px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.moop{
+    position: absolute;
+    margin-left: 9%;
+    margin-top:3180px;
+}
+
+
+
+
+.ast {
+    position: absolute;
+    margin-top:2800px;
+    margin-left: 70%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.astw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 70%;
+    margin-top:2800px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.astp{
+    position: absolute;
+    margin-left: 72%;
+    margin-top:3180px;
+}
+
+
+
+
+.asts {
+    position: absolute;
+    margin-top:3270px;
+    margin-left: 38.5%;
+    border-radius: 5px 5px 5px 5px;
+    /*width:300px;*/
+}
+
+.astsw{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin-left: 38.5%;
+    margin-top:3270px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:rgb(88, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Bitter', serif;*/
+    /*font-family: 'Arvo', serif;*/
+}
+
+.astsp{
+    position: absolute;
+    margin-left: 40.5%;
+    margin-top:3650px;
+}
+
+.line{
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: rgb(98, 104, 46);
+    margin-left: 15%;
+    margin-top: 135px;
+}
+
+.linee{
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: rgb(98, 104, 46);
+    margin-left: 55%;
+    margin-top: 135px;
+}
+
+.lineee{
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    background-color: rgb(98, 104, 46);
+    margin-left: 15%;
+    margin-top: 1655px;
+}
+
+.lineeee{
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    background-color: rgb(98, 104, 46);
+    margin-left: 59%;
+    margin-top: 1655px;
+}
+
+.lineeeee{
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: rgb(98, 104, 46);
+    margin-left: 15%;
+    margin-top: 2735px;
+}
+
+.lineeeeee{
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: rgb(98, 104, 46);
+    margin-left: 55%;
+    margin-top: 2735px;
+}
+
+.linend{
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    background-color: rgb(98, 104, 46);
+    margin-left: 15%;
+    margin-top: 3785px;
+}
+
+.aut{
+    position: absolute;
+    margin-top: 3815px;
+    margin-left: 43.5%;
+}
+
+.enx{
+    position: absolute;
+    height:30px;
+    width: 100%;
+    margin-top: 3825px;
+}
